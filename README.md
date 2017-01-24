@@ -1,5 +1,5 @@
 # spelltest
-A simple script that checks for any misspelled words in HTML content. It uses the power of the PyEnchant spellchecking library to determine any mispelled words you might be missing in a given directory.
+A simple script that checks for any misspelled words in HTML content. It uses the power of the PyEnchant spellchecking library and beautiful soup to determine any words that exist in HTML content. 
 
 It doesn't assume that misspelled words are errors, but it's worth taking a quick look at if you're worried about missing something! 
 
@@ -16,6 +16,13 @@ Looking for spelling errors in ../../Web/arm-open.github.io/templates/item-3.htm
 Looking for spelling errors in ../../Web/arm-open.github.io/templates/item-4.html
 Mispelled Words: 50, Total Words: 716, Percentage Incorrect: 0.07%
 ____________________
-['let’s', 'ARM’s', 'poor/working', 'millennials', 'boomers', 'Service:', 'support!', 'Bi-annual', 'Dinners:', '-3', '(Coats', 'etc)', 'Pay-it-Forward', 'wall:', '4c', 'Easton', 'out!', 'need!', 'Volunteer:', 'underserved', 'resource;', 'you!', '(Approx', '(1-2', 'week)', 'Volunteer:', '(law', 'etc)', 'don’t', 'work!', '(Approximate', '<', 'week)', 'Ambassador:', 'don’t', 'ARM’s', 'first!', '(Approximate', 'month)', 'Donor:', 'donation!', 'let’s', 'community!', 'Grounds:', 'brew!', '(http://thehiddengroundscom/)', 'Dogs:', 'all-star', 'DDogs', 'Balboa!']
+['lrt’s', 'poor/working', 'millennials', 'boomers', 'Service:', 'support!', 'Bi-annual', 'Dinners:', '-3', '(Coats', 'etc)', 'Pay-it-Forward', 'wall:', '4c', 'Easton', 'out!', 'need!', 'Volunteer:', 'underserved', 'resource;', 'you!', '(Approx', '(1-2', 'week)', 'Volunteer:', '(law', 'etc)', 'don’t', 'work!', '(Approximate', '<', 'week)', 'Ambassador:', 'don’t', 'ARM’s', 'first!', '(Approximate', 'month)', 'Donor:', 'donation!', 'let’s', 'community!', 'Grounds:', 'brew!', '(http://thehiddengroundscom/)', 'Dogs:', 'all-star', 'DDogs', 'Balboa!']
 
 ```
+
+
+todo:
+- so much lol.
+
+
+Feel free to PR, but it's a convenient little script that didn't really exist before :) 
