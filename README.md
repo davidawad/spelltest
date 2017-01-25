@@ -1,4 +1,4 @@
-# spelltest
+# spelltest ![](https://travis-ci.org/DavidAwad/spelltest.svg?branch=master)
 A simple script that checks for any misspelled words in HTML content. It uses the power of the PyEnchant spellchecking library and beautiful soup to determine any words that exist in HTML content. 
 
 It doesn't assume that misspelled words are errors, but it's worth taking a quick look at if you're worried about missing something! 
@@ -19,6 +19,9 @@ ____________________
 ['lrt’s', 'poor/working', 'millennials', 'boomers', 'Service:', 'support!', 'Bi-annual', 'Dinners:', '-3', '(Coats', 'etc)', 'Pay-it-Forward', 'wall:', '4c', 'Easton', 'out!', 'need!', 'Volunteer:', 'underserved', 'resource;', 'you!', '(Approx', '(1-2', 'week)', 'Volunteer:', '(law', 'etc)', 'don’t', 'work!', '(Approximate', '<', 'week)', 'Ambassador:', 'don’t', 'ARM’s', 'first!', '(Approximate', 'month)', 'Donor:', 'donation!', 'let’s', 'community!', 'Grounds:', 'brew!', '(http://thehiddengroundscom/)', 'Dogs:', 'all-star', 'DDogs', 'Balboa!']
 
 ```
+
+
+### Supports all versions of Python! 
 
 
 todo:
