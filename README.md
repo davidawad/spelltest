@@ -1,4 +1,5 @@
-# spelltest ![](https://travis-ci.org/DavidAwad/spelltest.svg?branch=master)
+# spelltest [![Build Status](https://img.shields.io/travis/DavidAwad/spelltest/latest.svg)](https://travis-ci.org/DavidAwad/spelltest)
+
 A simple script that checks for any misspelled words in HTML content. It uses the power of the PyEnchant spellchecking library and beautiful soup to determine any words that exist in HTML content. 
 
 It doesn't assume that misspelled words are errors, but it's worth taking a quick look at if you're worried about missing something! 
